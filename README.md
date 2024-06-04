@@ -26,15 +26,6 @@ El objetivo de este proyecto es desarrollar un sistema de facturación que permi
      Cálculo automático de impuestos y totales.
      Envío de facturas por correo electrónico.
 
-3. **Pago y Cobranza:**
-     Registro de pagos.
-     Asociación de pagos a facturas.
-     Generación de recibos de pago.
-
-4. **Notificaciones y Comunicaciones:**
-     Envío de facturas y presupuestos por correo electrónico.
-     Recordatorios de pago a clientes.
-
 5. **Acceso y Seguridad:**
      Control de acceso basado en roles.
      Autenticación segura de usuarios.

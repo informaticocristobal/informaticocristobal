@@ -26,3 +26,10 @@ which starts a server that automatically rebuilds the packages when their code c
 
 Please see [the website](https://codemirror.net/) for more information and [docs](https://codemirror.net/docs/ref).
 
+
+
+# Aclaraciones Adicionales
+
+El proyecto se desarrollará utilizando Python como lenguaje de programación y el framework Django. La instalación y configuración de Python y Django se proporcionarán en el archivo README.md del proyecto para facilitar su implementación y ejecución.
+
+Con este alcance del proyecto, se espera lograr un sistema robusto y eficiente que satisfaga las necesidades de facturación y presupuestos de "La Máquina del Tiempo", contribuyendo así al éxito y crecimiento continuo de la empresa.

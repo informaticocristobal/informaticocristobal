@@ -1,4 +1,4 @@
-# La Máquina del Tiempo - Proyecto de Facturación y Presupuestos
+# La Máquina del Tiempo - Proyecto de Presupuestos
 
 La máquina del tiempo
 la empresa fue creada con el objetivo de crear relojes de diferentes épocas y estilos para su

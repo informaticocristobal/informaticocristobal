@@ -1,27 +1,95 @@
-# ![https://mouredev.com](https://raw.githubusercontent.com/mouredev/mouredev/master/mouredev_emote.png) Hola, mi nombre es Cristobal Guajardo 👋
+# La Máquina del Tiempo - Proyecto de Facturación y Presupuestos
 
-Soy estudiante de ingenieria informatica estoy en mi tercer año .
+La Máquina del Tiempo es una empresa dedicada a la creación de relojes de diferentes épocas y estilos para su posterior venta a diversos proveedores. Reflejamos la evolución entre el diseño, la tecnología y la visualización del tiempo. Nuestra empresa es popular entre los amantes de los relojes de calidad.
 
- # CodeMirror
+## Objetivo del Proyecto
 
-[![Build Status](https://github.com/codemirror/dev/workflows/main/badge.svg)](https://github.com/codemirror/codemirror.next/actions)
+El objetivo de este proyecto es desarrollar un sistema de facturación que permita gestionar los productos y generar presupuestos para los clientes, solicitando los datos necesarios de la empresa.
 
-This is the central repository for [CodeMirror](https://codemirror.net/). It holds the bug tracker and development scripts.
+## Requisitos
 
-If you want to **use** CodeMirror, install the separate packages from npm, and ignore the contents of this repository. If you want to **develop on** CodeMirror, this repository provides scripts to install and work with the various packages.
+### Requisitos Funcionales
 
-To get started, make sure you are running [node.js](https://nodejs.org/) version 16. After cloning the repository, run
+1. **Gestión de Productos:**
+     Registro y actualización de productos.
+     Control de inventario y stock.
+     Búsqueda y visualización de productos.
 
-    node bin/cm.js install
+2. **Gestión de Facturas:**
+     Creación y edición de facturas.
+     Asociación de facturas a clientes.
+     Cálculo automático de impuestos y totales.
+     Envío de facturas por correo electrónico.
 
-to clone the packages that make up the system, install dependencies, and build the packages. At any time you can rebuild packages, either by running `npm run prepare` in their subdirectory, or all at once with
+3. **Pago y Cobranza:**
+     Registro de pagos.
+     Asociación de pagos a facturas.
+     Generación de recibos de pago.
 
-    node bin/cm.js build
+4. **Notificaciones y Comunicaciones:**
+     Envío de facturas y presupuestos por correo electrónico.
+     Recordatorios de pago a clientes.
 
-Developing is best done by setting up
+5. **Acceso y Seguridad:**
+     Control de acceso basado en roles.
+     Autenticación segura de usuarios.
+     Registro de actividad de los usuarios.
 
-    npm run dev
+### Requisitos No Funcionales
 
-which starts a server that automatically rebuilds the packages when their code changes and exposes a dev server on port 8090 running the [demo](http://localhost:8090) and [browser tests](http://localhost:8090/test/).
+1. **Rendimiento:**
+     Manejo eficiente de múltiples usuarios simultáneos.
+     Tiempos de respuesta rápidos (menos de 2 segundos).
 
-Please see [the website](https://codemirror.net/) for more information and [docs](https://codemirror.net/docs/ref).
+2. **Escalabilidad:**
+     Capacidad de escalar horizontal y verticalmente.
+     Diseño modular para facilitar la adición de nuevas funcionalidades.
+
+3. **Seguridad:**
+     Cifrado de datos sensibles.
+     Protección contra ataques comunes.
+
+4. **Disponibilidad:**
+     Alta disponibilidad (99.9% de tiempo de actividad).
+     Respaldo y recuperación ante desastres.
+
+5. **Usabilidad:**
+     Interfaz intuitiva y fácil de usar.
+     Soporte multilenguaje.
+
+6. **Compatibilidad:**
+     Compatible con principales navegadores (Chrome, Firefox, Safari, Edge).
+     Aplicación móvil compatible con Android e iOS.
+
+7. **Mantenimiento:**
+     Documentación clara y detallada.
+     Procedimientos definidos para actualizaciones y mantenimiento.
+
+8. **Sistema de fácil uso:**
+     Simplificación en la navegación y uso del sistema.
+
+## Tecnologías Utilizadas
+
+- **Lenguaje de Programación:** Python
+- **Framework:** Django
+
+## Instalación
+
+### Instalación de Python
+
+1. Descarga e instala Python desde la página oficial: [Python Downloads](https://www.python.org/downloads/)
+
+### Creación de un Entorno Virtual
+
+1. Abre el cmd y navega a la carpeta donde deseas crear el proyecto.
+2. Ejecuta los siguientes comandos:
+
+```bash
+python -m venv myenv
+myenv\Scripts\activate  
+pip install django
+django-admin startproject myproject
+cd myproject
+python manage.py runserver
+python manage.py migrate
+python manage.py createsuperuser

@@ -16,18 +16,15 @@ El objetivo de este proyecto es desarrollar un sistema de facturación que permi
 ### Requisitos Funcionales
 
 1. **Gestión de Productos:**
-     Registro y actualización de productos.
      Control de inventario y stock.
-     Búsqueda y visualización de productos.
+     visualización de productos.
 
-2. **Gestión de Facturas:**
+3. **Gestión de Facturas:**
      Creación y edición de facturas.
      Asociación de facturas a clientes.
      Cálculo automático de impuestos y totales.
-     Envío de facturas por correo electrónico.
 
 5. **Acceso y Seguridad:**
-     Control de acceso basado en roles.
      Autenticación segura de usuarios.
      Registro de actividad de los usuarios.
 
@@ -51,17 +48,14 @@ El objetivo de este proyecto es desarrollar un sistema de facturación que permi
 
 5. **Usabilidad:**
      Interfaz intuitiva y fácil de usar.
-     Soporte multilenguaje.
 
 6. **Compatibilidad:**
      Compatible con principales navegadores (Chrome, Firefox, Safari, Edge).
-     Aplicación móvil compatible con Android e iOS.
-
-7. **Mantenimiento:**
+   
+8. **Mantenimiento:**
      Documentación clara y detallada.
-     Procedimientos definidos para actualizaciones y mantenimiento.
-
-8. **Sistema de fácil uso:**
+   
+9. **Sistema de fácil uso:**
      Simplificación en la navegación y uso del sistema.
 
 ## Tecnologías Utilizadas

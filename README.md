@@ -91,17 +91,17 @@ El objetivo de este proyecto es desarrollar un sistema de facturación que permi
 
 ```bash
 python -m venv myenv
-```bash
+
 myenv\Scripts\activate
-```bash
+
 pip install django
-```bash
+
 django-admin startproject myproject
-```bash
+
 cd myproject
-```bash
+
 python manage.py runserver
-```bash
+
 python manage.py migrate
-```bash
+
 python manage.py createsuperuser
